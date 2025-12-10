@@ -4,7 +4,7 @@
   Spark Community is a modern, lightweight blogging platform inspired by Medium. It allows users to read, write, and engage with articles in a clean, minimalist interface. The entire application is built as a single-page application without any server-side rendering or complex build steps.
 </p>
 
-<h2>✨ Features</h2>
+<h2>Features</h2>
 <ul>
   <li><b>Read Articles:</b> Browse a feed of articles on the homepage.</li>
   <li><b>Full Article View:</b> Click on any article to read its full content.</li>
@@ -13,7 +13,7 @@
   <li><b>Personalized:</b> The app asks for your name to personalize the experience.</li>
 </ul>
 
-<h2>🚀 Tech Stack</h2>
+<h2>Tech Stack</h2>
 <p>
   This project is built with a modern, no-build-step frontend stack:
 </p>
@@ -25,7 +25,7 @@
   <li><b>Module Loading:</b> <b>ES Modules via Import Maps</b>. All dependencies (<code>react</code>, <code>react-dom</code>, etc.) are loaded directly in the browser from the <code>esm.sh</code> CDN, eliminating the need for a local build process (like Webpack or Vite).</li>
 </ul>
 
-<h2>🏃‍♂️ Running Locally</h2>
+<h2>Running Locally</h2>
 <p>
   Since this project uses a no-build-step setup, you don't need to install any <code>node_modules</code>. You only need a simple local web server to serve the <code>index.html</code> file.
 </p>
@@ -42,7 +42,7 @@
   <li>Open your browser and navigate to the local address provided (e.g., <code>http://localhost:8000</code> or <code>http://localhost:3000</code>).</li>
 </ol>
 
-<h2>☁️ Manual Deployment to Netlify</h2>
+<h2>Manual Deployment to Netlify</h2>
 <p>
   Deploying this app to Netlify is incredibly simple because there are no build steps.
 </p>
